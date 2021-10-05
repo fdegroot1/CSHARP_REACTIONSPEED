@@ -18,4 +18,6 @@
 
   <Import Project="..\Utils\Utils.projitems" Label="Shared" />
 
+  <Import Project="..\SharedUtil\SharedUtil.projitems" Label="Shared" />
+
 </Project>

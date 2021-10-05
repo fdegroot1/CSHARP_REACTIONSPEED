@@ -7,10 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactionSpeed_Client", "Rea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactionSpeed_Server", "ReactionSpeed_Server\ReactionSpeed_Server.csproj", "{D2C031FA-35B1-4877-84F6-B4F1FB55DD1D}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedUtil", "SharedUtil\SharedUtil.shproj", "{EE453055-82FA-411F-A3AD-4BB73EAE5BB5}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Utils\Utils.projitems*{aacba428-cef0-47f4-8514-843035c9a887}*SharedItemsImports = 5
-		Utils\Utils.projitems*{d2c031fa-35b1-4877-84f6-b4f1fb55dd1d}*SharedItemsImports = 5
+		SharedUtil\SharedUtil.projitems*{aacba428-cef0-47f4-8514-843035c9a887}*SharedItemsImports = 5
+		SharedUtil\SharedUtil.projitems*{d2c031fa-35b1-4877-84f6-b4f1fb55dd1d}*SharedItemsImports = 5
+		SharedUtil\SharedUtil.projitems*{ee453055-82fa-411f-a3ad-4bb73eae5bb5}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

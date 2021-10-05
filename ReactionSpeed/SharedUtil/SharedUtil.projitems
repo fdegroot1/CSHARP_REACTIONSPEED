@@ -3,11 +3,12 @@
   <PropertyGroup>
     <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <SharedGUID>69036d70-a2a5-4e4d-af75-043ef6c540d2</SharedGUID>
+    <SharedGUID>ee453055-82fa-411f-a3ad-4bb73eae5bb5</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Parser</Import_RootNamespace>
+    <Import_RootNamespace>SharedUtil</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DataParser.cs" />
   </ItemGroup>
 </Project>
