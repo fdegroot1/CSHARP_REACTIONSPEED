@@ -3,15 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactionSpeed_Client", "ReactionSpeed\ReactionSpeed_Client.csproj", "{AACBA428-CEF0-47F4-8514-843035C9A887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactionSpeed_Client", "ReactionSpeed\ReactionSpeed_Client.csproj", "{AACBA428-CEF0-47F4-8514-843035C9A887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactionSpeed_Server", "ReactionSpeed_Server\ReactionSpeed_Server.csproj", "{D2C031FA-35B1-4877-84F6-B4F1FB55DD1D}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Utils", "Utils\Utils.shproj", "{05688E2F-EDFB-4CD9-A9C1-CE266AE71955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactionSpeed_Server", "ReactionSpeed_Server\ReactionSpeed_Server.csproj", "{D2C031FA-35B1-4877-84F6-B4F1FB55DD1D}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Utils\Utils.projitems*{05688e2f-edfb-4cd9-a9c1-ce266ae71955}*SharedItemsImports = 13
 		Utils\Utils.projitems*{aacba428-cef0-47f4-8514-843035c9a887}*SharedItemsImports = 5
 		Utils\Utils.projitems*{d2c031fa-35b1-4877-84f6-b4f1fb55dd1d}*SharedItemsImports = 5
 	EndGlobalSection

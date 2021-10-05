@@ -1,19 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Linq;
 using Newtonsoft.Json;
 
-namespace Utils
+namespace Parser
 {
-    public class DataParser
+    class DataParser
     {
         public const string LOGIN = "LOGIN";
         public const string SAVEHIGHSCORE = "SAVEHIGHSCORE";
         public const string GETHIGHSCORELIST = "GETHIGHSCORELIST";
         public const string HIGHSCORELIST = "HIGHSCORELIST";
         public const string DISCONNECT = "DISCONNECT";
-
         public static string getJsonIdentifier(byte[] messageBytes)
         {
             dynamic json = JsonConvert.DeserializeObject(Encoding.ASCII.GetString(messageBytes.Skip(4).ToArray()));
@@ -115,4 +113,3 @@ namespace Utils
     }
 
 }
-
