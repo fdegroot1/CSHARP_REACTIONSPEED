@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReactionSpeed_Client.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,24 +11,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ReactionSpeed
+namespace ReactionSpeed_Client.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for TestView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class TestView : UserControl
     {
-        public MainWindow()
+        public TestView()
         {
             InitializeComponent();
-        }
-
-        private void Button_OnClick(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

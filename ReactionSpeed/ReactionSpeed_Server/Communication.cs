@@ -9,13 +9,13 @@ namespace ReactionSpeed_Server
 {
     class Communication
     {
-        private TcpListener listener;
-        private List<TcpClient> clients;
+        /*private TcpListener listener;
+        private List<Client> clients;
 
         public Communication(TcpListener listener)
         {
             this.listener = listener;
-            this.clients = new List<TcpClient>();
+            this.clients = new List<Client>();
         }
 
         public void Start()
@@ -38,8 +38,8 @@ namespace ReactionSpeed_Server
 
         public void RemoveClient(Client client)
         {
-            clients.Remove(client);
-        }
+            clients.Remove(client);*/
+        //}
 
     }
 }
